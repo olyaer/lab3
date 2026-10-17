@@ -1,0 +1,11 @@
+total_sum = 0
+sum_of_squares = 0
+
+while True:
+    a = int(input(""))
+    total_sum += a
+    sum_of_squares += a ** 2  
+    if total_sum == 0:
+        break
+
+print(sum_of_squares)
